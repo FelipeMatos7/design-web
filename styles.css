@@ -1,3 +1,21 @@
+.header-stone{
+    height: 180px;
+}
+.logo{
+    width: 30%;
+    height: auto;
+}
+.slide-stone{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: 0px 30%;
+}
+.slide-area{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-bottom: 20px;
+}
 .navbar {
     position:relative;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;padding:.5rem 1rem
 }
