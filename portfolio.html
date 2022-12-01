@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Stone M&G</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Principal CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- Estilos customizados para esse template -->
+  </head>
+
+  <body>
+    <div class="container-fluid header-stone">
+      <div class="row justify-content-md-center">
+        <img src="img/logostone.png" class="logo" alt="Stone Mámore e Granito" >
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Início <span class="sr-only">(atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=558332454086" target="_blank">Orçamento</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <a href="https://www.instagram.com/stonemg_/" target="_blank"><li class="nav-item"><i class="bi bi-instagram"></i></li></a>
+          <a href="https://www.facebook.com/stonemarmoresegranitos" target="_blank"><li class="nav-item"><i class="bi bi-facebook"></i></li></a>
+          <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558332454086" target="_blank"><li class="nav-item"><i class="bi bi-whatsapp"></i></li></a>
+        </ul>
+      </div>
+    </nav>
+    <!-- Área do Conteúdo da página-->
+    <div class="containter portfolio-page">
+        <div class="row justify-content-md row-portfolio">
+                <div class="col-3">
+                  <img src="img/portfolio/img1.jpeg" alt="Trabalhos em Mármore e Granito" onclick="myFunction(this);">
+                </div>
+                <div class="col-3">
+                  <img src="img/portfolio/img2.jpeg" alt="Trabalhos em Mármore e Granito" onclick="myFunction(this);">
+                </div>
+                <div class="col-3">
+                  <img src="img/portfolio/img3.jpeg" alt="Trabalhos em Mármore e Granito" onclick="myFunction(this);">
+                </div>
+                <div class="col-3">
+                  <img src="img/portfolio/img4.jpeg" alt="Trabalhos em Mármore e Granito" onclick="myFunction(this);">
+                </div>
+                <div class="col-3">
+                    <img src="img/portfolio/img5.jpeg" alt="Trabalhos em Mármore e Granito" onclick="myFunction(this);">
+                  </div>
+                  <div class="col-3">
+                    <img src="img/portfolio/img6.jpeg" alt="Trabalhos em Mármore e Granito" onclick="myFunction(this);">
+                  </div>
+                  <div class="col-3">
+                    <img src="img/portfolio/img7.jpeg" alt="Trabalhos em Mármore e Granito" onclick="myFunction(this);">
+                  </div>
+                  <div class="col-3">
+                    <img src="img/portfolio/img8.jpeg" alt="Trabalhos em Mármore e Granito" onclick="myFunction(this);">
+                  </div>
+              </div>
+              
+              <!-- Box da imagem grande -->
+              <div class="container-img">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+              
+                <!-- Imagem Grande -->
+                <img id="expandedImg">
+              
+        </div>
+    </div>
+
+    <!-- Final do Conteúdo da página-->
+
+
+    <footer class="container-fluid footer-site">
+        <div class="row justify-md-center">
+          <div class="col-md-8">
+            <p>&copy; Todos os direitos reservados à Stone M&G</p>
+          </div>
+          <div class="col-md-4">
+              <a href="https://www.instagram.com/stonemg_/" target="_blank" class="col-3"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.facebook.com/stonemarmoresegranitos" target="_blank" class="col-3"><i class="bi bi-facebook"></i></a>
+              <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558332454086" target="_blank" class="col-3"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </footer>
+  
+      <!-- Principal JavaScript do Bootstrap
+      ================================================== -->
+      <!-- Foi colocado no final para a página carregar mais rápido -->
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    </body>
+    </html>
